@@ -18,8 +18,8 @@
 
 // 1-ая задача
 
-// let a = prompt("type any number")
-// if (a == 10){
+// let a = 5
+// if (a === 10){
 //     console.log(true)
 // }
 // else  {
@@ -30,11 +30,11 @@
 // // 2-ая задача
 // let a = 50
 // let b = 100
-// if (b * -1 == b ){
-//     console.log("a > b") 
+// if (a < b){
+//     console.log("a < b") 
 // }
 // else if (a + b){
-//     console.log("a < b")
+//     console.log("a > b")
 // }
 
 
@@ -53,11 +53,11 @@
 
 // 4-ая задача
 
-// let a = 45
-// if (a % 2 === 0 ){
+// let num = 45
+// if (num % 2 === 0 ){
 //     console.log("четное")
 // }
-// else if (a % 2 ==! 0){
+// else if (num % 2 ==! 0){
 //     console.log("нечетное")
 // }
 
@@ -75,15 +75,15 @@
 
 // 6-ая задача 
 
-// let s
-// if (s){
-//     console.log(boolean)
+// let s = 1
+// if (typeof s === "boolean"){
+//     console.log("boolean")
 // }
-// else if (s) {
-//     console.log(number)
+// else if (typeof s === "number") {
+//     console.log("number")
 // }
-// else ("s") {
-//     console.log(string)
+// else {
+//     console.log("string")
 // }
 
 // // 7-вя задача
@@ -152,16 +152,44 @@
 //     console.log("третья декада")
 // }
 
+// 13-ая задача
+// 13. Вам дана переменная a='12345'. Проверьте, что первым символом этой переменной является цифра 1, 2 или 3. Если это так – выведите ‘да’, в противном случае выведите ‘нет’.
+// let a = "12345"
+// if ("1,2,3"){
+//     console.loge("да")
+// }
+// else {
+//     console.loge("нет")
+// }
+
+
+//14-ая задача
+
+// let age = 21
+
+// if (age >=1 && age <= 4 || age === 21) {
+//     console.log("мне " +age+ " год")
+// } else {
+//     console.loge("мне " +age+ " лет")
+// }
+
+// 15. Вам дана переменная time= *любое чило от 1 до 59*. Составьте условие, по которому время будет делиться на четверти. Пример: time = 12 - Первая четверть. Если число больше 60, то в консоли будет выдаваться "Неверное число".
+
+
 // 15-ая задача
 // let time = 5
-// if(time >=1 && time <= 59 && time >= 1 && time <= 15){
+// if(time >=1 && time <= 15){
 //     console.log("первая четверть")
-// }else if(time >=1 && time <= 59 && time >= 16 && time <=30){
+// }else if(time >=16 && time <= 30) {
 //     console.log("вторая четверть")
-// }else if(time >=1 && time <= 59 && time >= 31 && time <= 45){
+// }else if(time >=31 && time <= 45 ){
 //     console.log("третья четверть")
-// }else if(time >=1 && time <= 59 && time >= 46 && time <= 59){
+// }else if(time >=1 && time <= 59){
 //     console.log("четвертая четверть")
 // }else{
 //     console.log("Неверное число")
 // }
+
+
+
+
